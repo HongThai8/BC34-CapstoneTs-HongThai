@@ -2,8 +2,8 @@
 
 Lớp: BC34 
  Họ tên
-- Hồng Thái 
-- Minh Tâm
+- Hồng Thái : Đăng ký , đăng nhập , chỉnh sửa thông tin cá nhân , lấy danh sách , tìm kiếm , chi tiết khóa học 
+- Minh Tâm :  Đăng ký khóa học , Quản lý người dùng , Quản lý khóa học , Ghi danh người dùng
 
 ## Link
 - Git:https://github.com/HongThai8/BC34-CapstoneTs-HongThai
