@@ -2,8 +2,8 @@
 
 Lớp: BC34 
  Họ tên
- Hồng Thái
- Minh Tâm
+- Hồng Thái 
+- Minh Tâm
 
 ## Link
 --Git:https://github.com/HongThai8/BC34-CapstoneTs-HongThai
