@@ -1,0 +1,68 @@
+@import '../Base/base';
+@import '../Theme/variable';
+//----------------------------------
+.search{
+    h2{
+        @include text($text-l,$text-semibold,text-cl-dark);
+    }
+    .search-results{
+        .item{
+            height: 200px;
+            padding: 25px 0;
+            // margin-bottom: 25px;
+            border-top: 1px solid $bd-cl-dark;
+            background-color: $bg-trans;
+            transition: all .2s;
+            .result{
+                .col-2{
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .col-10{
+                    h4.title{
+                        @include text($text-md,$text-bold,$text-cl-dark);
+                        opacity: .7;
+                    }
+                    p.description{
+                        @include text($text-sm-1,$text-regular,$text-cl-dark);
+                        opacity: .6;
+                    }
+                }
+            }
+            &:hover{
+                background-color: $bg-sp1;
+            }
+        }
+        .list-page *{
+            @include text($text-sm-2,$text-medium,$text-cl-a1);
+            &:hover{
+                @include text($text-sm-2,$text-medium,$text-cl-ah1);
+            }
+        }
+        .paginationBtn{
+            width: 80%;
+            height: auto;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            & a{
+                padding: 10px;
+                margin: 10px;
+                border-radius: 10px;
+                @include text($text-base,$text-medium,$text-cl-a2);
+                transition: all .5s;
+                &:hover{
+                    background-color: $bg-cl-sp1;
+
+                }
+            }
+        }
+        .activePagBtn{
+            & a{
+                background-color: $bg-cl-sp1;
+            }
+        }
+    }
+}

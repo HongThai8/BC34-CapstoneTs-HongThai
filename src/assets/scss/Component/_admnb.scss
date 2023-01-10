@@ -1,0 +1,9 @@
+@import '../Base/base';
+@import '../Theme/variable';
+//-----------------------
+.admin-navbar{
+    border-bottom: 1px solid $bd-cl-dark;
+    padding: 10px 0;
+    height: 75px;
+    width: 100%;
+}

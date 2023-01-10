@@ -1,0 +1,45 @@
+@import '../Base/base';
+@import '../Theme/variable';
+//-----------------------
+.footer{
+    background-color: $bg-cl-ft;
+    .container{
+        .row{
+            h5{
+                @include text($text-base,$text-semibold,$text-cl-light);
+            }
+            a{
+                @include text($text-xsm,$text-light,$text-cl-light);
+            }
+            .btn{
+                @include button($btn-cl-prim,10px,none,$text-sm-1,$text-medium,$text-cl-light,0.375rem,$btn-cl-hprim,$text-cl-light);
+            }
+            .gr-1{
+                input{
+                    &::placeholder{
+                        font-size: $text-sm;
+                    }
+                }
+                .location{
+                    p{
+                        margin: 0;
+                    }
+                }
+            }
+            .gr-2{
+                input{
+                    border-radius: 0;
+                }
+                .btn{
+                    border-radius: 0;
+                }
+                .connect-link{
+                    a{
+                        display: inline-block;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

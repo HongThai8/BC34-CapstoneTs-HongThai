@@ -1,0 +1,11 @@
+1. Bootstrap 5 -- đã cài 
+2. Font Awesome -- đã cài --> @fontawesome/fontawesome-svg-core --> @fortawesome/free-solid-svg-icons + @fortawesome/free-regular-svg-icons + @fortawesome/free-brands-svg-icons --> @fortawesome/react-fontawesome@latest
+3. Sass loader + node sass -- đã cài
+4. React-router-dom -- đã cài
+5. Lodash -- đã cài
+6. Axios -- đã cài
+7. Redux Toolkit + React redux -- đã cài
+8. Antd -- đã cài
+9. History -- đã cài
+10. Yup + Formik -- đã cài
+11. React-slick + slick carousel -- đã cài

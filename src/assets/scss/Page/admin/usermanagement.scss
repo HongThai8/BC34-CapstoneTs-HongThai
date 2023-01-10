@@ -1,0 +1,30 @@
+@import '../../Base/base';
+@import '../../Theme/variable';
+//---------------------------------------
+.user-management{
+    margin-top: 15px;
+    margin-left: 20px;
+    .course-title{
+        h3{
+            font-weight: $text-semibold;
+        }
+    }
+    .modal{
+        h3,p{
+            color: $text-cl-dark;
+            font-weight: $text-medium;
+        }
+        input,table,button{
+            border: 2px solid $bd-cl-dark;
+        }
+        .modal-content{
+            background-color: $bg-cl-sp3;
+            .content-1,.content-2{
+                border-bottom: 2px solid $bd-cl-dark;
+            }
+            .content-1,.content-2,.content-3{
+                padding: 15px 0;
+            }
+        }
+    }
+}

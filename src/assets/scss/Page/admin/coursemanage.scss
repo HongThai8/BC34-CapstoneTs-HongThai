@@ -1,0 +1,54 @@
+@import '../../Base/base';
+@import '../../Theme/variable';
+//---------------------------------------
+.course-management{
+    margin-top: 15px;
+    .course-title{
+        a{
+            @include text($text-base,$text-semibold,$text-cl-dark);
+            transition: all .2s;
+            &:hover{
+                @include text($text-base,$text-semibold,$text-cl-sp1);
+            }
+        }
+    }
+    .course-table{
+        .table{
+            tr{
+                th,td{
+                    text-align: center;
+                }
+                th.tkh{
+                    width: 125px;
+                }
+                th.ha{
+                    width: 100px;
+                }
+                th.lx{
+                    width: 80px;
+                }
+                th.ngtao{
+                    width: 125px;
+                }
+            }
+        }
+    }
+    .modal{
+        h3,p{
+            color: $text-cl-dark;
+            font-weight: $text-medium;
+        }
+        input,table,button{
+            border: 2px solid $bd-cl-dark;
+        }
+        .modal-content{
+            background-color: $bg-cl-sp3;
+            .content-1,.content-2{
+                border-bottom: 2px solid $bd-cl-dark;
+            }
+            .content-1,.content-2,.content-3{
+                padding: 15px 0;
+            }
+        }
+    }
+}

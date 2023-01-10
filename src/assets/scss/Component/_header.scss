@@ -1,0 +1,15 @@
+@import '../Base/base';
+@import '../Theme/variable';
+//---------------------------------------
+header{
+    .btn-login{
+        background-color: $btn-cl-prim;
+        border: none;
+        &:hover{
+            background-color: $btn-cl-hprim!important;
+        }
+        &.active{
+            background-color: $btn-cl-prim!important;
+        }
+    }
+}

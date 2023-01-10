@@ -1,0 +1,78 @@
+@import "../Base/base";
+@import "../Theme/variable";
+//---------------------------------------
+.home {
+  .carousel {
+    position: relative;
+    height: 500px;
+    background-image: url(../../img/b1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    .container {
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 0;
+      }
+      .row {
+        position: relative;
+        z-index: 1;
+        .content {
+          transform: translateY(10%);
+          .title {
+            h1 {
+              @include text($text-xxl, $text-bold, $text-cl-sp1);
+              @media screen and (max-width: 1200px){
+                @include text($text-xl, $text-bold, $text-cl-sp1);
+              }
+            }
+
+          }
+          .description {
+            p {
+              @include text($text-base, $text-semibold, $text-cl-light);
+            }
+          }
+          .button-area {
+            .btn-success {
+              @include button(
+                $btn-cl-prim,
+                10px,
+                none,
+                $text-base,
+                $text-regular,
+                $text-cl-light,
+                0px,
+                $btn-cl-hprim,
+                $text-cl-light
+              );
+            }
+            .btn-primary {
+              @include button(
+                $btn-cl-dark,
+                10px 20px,
+                1px solid $bd-cl-light,
+                $text-base,
+                $text-regular,
+                $text-cl-light,
+                0px,
+                $btn-cl-light,
+                $text-cl-dark
+              );
+            }
+          }
+        }
+      }
+    }
+  }
+}

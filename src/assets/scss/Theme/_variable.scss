@@ -1,0 +1,71 @@
+//--thiếu gì thì thêm zô nha--//
+//font size
+$text-xsm : 12px;
+$text-sm : 14px;
+$text-sm-1 : 16px;
+$text-sm-2 : 18px;
+$text-base : 20px;
+$text-md : 24px;
+$text-l : 32px;
+$text-xl : 40px;
+$text-xxl : 64px;
+//font-weight
+$text-light : 300;
+$text-regular : 400;
+$text-medium : 500;
+$text-semibold : 600;
+$text-bold : 700;
+//text-color
+$text-cl-dark : #000;
+$text-cl-light : #fff;
+$text-cl-sp1:#d4b03c;
+$text-cl-a1:#ABDCF7;
+$text-cl-ah1:#5A6CC4;
+$text-cl-a2:#3fa9e2;
+//background-color
+$bg-cl-dark:#000;
+$bg-cl-light : #fff;
+$bg-cl-ft:#1E1E2A;
+$bg-trans: transparent;
+$bg-sp1:#f7f8fa;
+$bg-cl-sp1:#ABDCF7;
+$bg-cl-sp2:rgba(0, 0, 0, 0.1);
+$bg-cl-sp3: #5C636A;
+//border-color
+$bd-cl-dark:#000;
+$bd-cl-light:#fff;
+//btn-color
+$btn-cl-prim:#d4b03c;
+$btn-cl-hprim:#b09338;
+$btn-cl-dark:#000;
+$btn-cl-light:#fff;
+
+$mobile-width: 480px; 
+$tablet-width: 768px; 
+$desktop-width: 1024px;
+//-----------------mixin
+@mixin text($fs:$text-base,$fw:$text-regular,$c:$text-cl-dark){
+    font-size: $fs;
+    font-weight: $fw;
+    color: $c;
+}
+@mixin button($bg,$pd,$bd,$fs,$fw,$c,$br,$bg-h,$c-h) {
+    background: $bg;
+    padding: $pd;
+    border: $bd;
+    font-size: $fs;
+    font-weight: $fw;
+    color: $c;
+    border-radius: $br;
+    &:hover{
+        background: $bg-h;
+        color: $c-h;
+    }
+}
+@mixin tablet { @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {       
+    @content;
+  } 
+ } 
+
+
+
