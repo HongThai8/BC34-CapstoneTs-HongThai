@@ -1,11 +1,11 @@
 # Capstone React Typescript Cuối Khóa
 
-Lớp: BC30 
-## Họ tên
-Trần Hoàng Khải \
-Lê Trung Kiên 
+Lớp: BC34 
+ Họ tên
+ Hồng Thái
+ Minh Tâm
 
 ## Link
---Git: https://github.com/trankhai191299/capstoneTypescript_KiKa.git \
---Youtube: https://youtu.be/V1L964j_XQc \
---Deploy: https://elearning-csts.vercel.app/home \
+--Git:https://github.com/HongThai8/BC34-CapstoneTs-HongThai
+--Youtube: 
+--Deploy: 
