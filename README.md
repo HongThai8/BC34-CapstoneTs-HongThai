@@ -7,5 +7,5 @@ Lớp: BC34
 
 ## Link
 --Git:https://github.com/HongThai8/BC34-CapstoneTs-HongThai
---Youtube: 
---Deploy: 
+--Youtube: https://youtu.be/rYgmKJxsq_g
+--Deploy: https://bc-34-capstone-ts-hong-thai.vercel.app/
